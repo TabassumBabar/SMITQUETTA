@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 2px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .periodic-table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .periodic-table th, .periodic-table td {
+            border: 1px solid #aaa;
+            padding: 10px;
+            text-align: center;
+        }
+        .periodic-table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .periodic-table td {
+            background-color: #fff;
+        }
+        .periodic-table .alkali-metals {
+            background-color: #ffcc00;
+        }
+        .periodic-table .alkaline-earth-metals {
+            background-color: #ff9966;
+        }
+        .periodic-table .transition-metals {
+            background-color: #99ccff;
+        }
+        .periodic-table .post-transition-metals {
+            background-color: #99ff99;
+        }
+        .periodic-table .metalloids {
+            background-color: #ffccff;
+        }
+        .periodic-table .halogens {
+            background-color: #99ffcc;
+        }
+        .periodic-table .noble-gases {
+            background-color: #ccffff;
+        }
+    </style>
+</head>
+<body>
+
+<table class="periodic-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="alkali-metals">
+            <td>1</td>
+            <td>H</td>
+            <td colspan="16"></td>
+            <td>He</td>
+        </tr>
+        <tr class="alkaline-earth-metals">
+            <td>2</td>
+            <td>Li</td>
+            <td>Be</td>
+            <td colspan="10"></td>
+            <td>B</td>
+            <td>C</td>
+            <td>N</td>
+            <td>O</td>
+            <td>F</td>
+            <td>Ne</td>
+        </tr>
+        <!-- Continue filling in the rest of the periodic table -->
+    </tbody>
+</table>
+
+</body>
+</html>
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 2px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+

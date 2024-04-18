@@ -1,0 +1,12 @@
+1====Create a CV in html with thw name of cv.html
+2====main heading should be all student name(own name)
+3====Address, Qualification, Age, Description
+4====address should be a heading 
+	4.1==addres detail should be a description
+
+
+
+
+google search
+best description for html developer for cv
+or get help by ai tools.
